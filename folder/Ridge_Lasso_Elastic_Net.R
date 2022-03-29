@@ -20,3 +20,5 @@ coef(fit)
 
 sum(abs(coef(fit)[-1])) #intercept »©°í predictor coefficient ´Ù ´õÇÔ
 sum(coef(fit)[-1] ^ 2)
+
+mean(Hitters$Salary)
