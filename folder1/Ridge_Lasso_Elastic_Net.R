@@ -18,5 +18,5 @@ y = Hitters$Salary
 fit = lm(Salary ~ ., Hitters)
 coef(fit)
 
-sum(abs(coef(fit)[-1])) #intercept »©°í predictor coefficient ´Ù ´õÇÔ
+sum(abs(coef(fit)[-1])) #intercept Â»Â©Â°Ã­ predictor coefficient Â´Ã™ Â´ÃµÃ‡Ã”
 sum(coef(fit)[-1] ^ 2)
